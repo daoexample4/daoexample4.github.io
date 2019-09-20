@@ -372,6 +372,8 @@ var PushKaWrapper = function( params )
     this.startArrowPopup = startArrowPopup;
 
     extend(this.config, params, {});
+    	
+    console.log(PushKaWrapper);     
 
     initLang();
 
